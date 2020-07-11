@@ -372,6 +372,25 @@ width: 53%;
 	margin-right: auto;
 	margin-left: auto;
 }
+
+
+.link {
+	text-decoration: none;
+	font-size: 2.5vw;
+	font-weight: 700;
+	text-transform: uppercase;  
+	color: #ffffff;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 87.5%;
+	padding: 2.8125% 26.5625% 2.8125% 35%;
+	background-color: #5e42b0;
+	border-radius: 50px;
+	margin-right: 0;
+}
+
+.icon-store-proba {
+	margin-left: -50px;
 }
 
 @media (min-width: 321px) and (max-width: 768px) {
