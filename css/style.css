@@ -46,9 +46,8 @@ body {
 	.container {
 		position: relative;
 		z-index: 1;
-		height: 0;
 		padding-top: 10.3125%;
-		padding-bottom: 190%;
+		padding-bottom: 10.3125%;
 		max-height: 100%;
 	}
 
@@ -67,11 +66,13 @@ body {
 		font-weight: 700;
 		text-transform: uppercase;
 		margin-top: 41.56%;
+		margin-left: 6.25%;
 	}
 
 	.top-paragraphly-line {
+		display: block;
 		margin: 0;
-		margin-left: 6.25%;
+		margin-left: 13.75vw;
 	}
 
 	.top-paragraphly-line:nth-child(n+2) {
@@ -84,10 +85,11 @@ body {
 		width: 87.5%;
 		list-style: none;
 		padding: 0;
+		padding-bottom: 26.25%;
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 26.875%;
-		margin-bottom: 26.25%;
+		margin-bottom: 0;
 	}
 
 	.download-link:nth-child(n+2) {
@@ -120,13 +122,9 @@ body {
 		margin: 0;
 	}
 
-	.sportsmans {
+	.block-sportsmans {
 		background-color: #ffffff;
-		position: relative;
-		padding-top: 3.125%;
-		padding-left: 6.25%;
-		padding-bottom: 71.875%;	
-	}
+	}	
 
 	.title-sportsmans {
 		color: #e7e7e7;
@@ -134,19 +132,23 @@ body {
 		font-weight: 700;
 		text-transform: uppercase;
 		margin: 0;
-	}
-
-	.sportsmans-preview {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 53%;
+		margin-left: 6.25%;
+		margin-top: 6.25%;
 	}
 
 	.sportsmans-img {
-		position: absolute;
-		top: 25%;
-		width: 53%; 
+		min-height: 72.1875vw;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.img-footballer {
+		width: 53%;
+	}
+
+	.img-basketballer {
+		width: 88vw;
 	}
 
 	.connection {
@@ -204,12 +206,6 @@ body {
 		padding-bottom: 16.875%;
 	}
 
-
-
-	.img-basketballer {
-		width: 92.81%;
-	}
-
 	.growth {
 		background-color: #5e42b0;
 		padding-top: 18.75%;
@@ -258,16 +254,18 @@ body {
 		color: #8765dd;
 	}
 
-	.precept {
-		position: relative;
-	}
-
 	.precept-img {
+		min-height: 109.6875vw;
+		min-width: 100vw;
 		max-width: 100%;
 		background-color: #0a0e34;
 		background-repeat: no-repeat; 
 		background-size: cover;
 		background-position: center center;
+
+	}
+	.precept {
+		position: relative;
 		
 	}
 
@@ -281,7 +279,7 @@ body {
 		font-weight: 700;
 		color: #f5f6f7;
 		position: absolute;
-		top: 91.5625vw;
+		top: -28.125vw;
 		left: 6.25%;
 	}
 
@@ -350,13 +348,14 @@ body {
 		margin-right: auto;
 		margin-top: 31.25%;
 	}
-	
+
 	.title-footer {
-		width: 100%;
+		width: 87.5%;
 		color: #ffffff;
 		font-size: 10vw;
 		font-weight: 700;
 		text-transform: uppercase;
+		text-align: center;
 		margin-top: 17.1875%;
 		margin-bottom: 0;
 		margin-left: auto;
@@ -364,12 +363,11 @@ body {
 	}
 
 	.footer-paragraphly {
-		width: 100%;
+		display: block;
 		color: #9b8ec1;
 		font-size: 4.375vw;
 		font-weight: 400;
 		text-transform: uppercase;
-		margin-top: 4.0625%;
 		margin-bottom: 0;
 		margin-left: auto;
 		margin-right: auto;
@@ -377,7 +375,7 @@ body {
 
 	.downloads-footer {
 		margin-top: 23.75%;
-		margin-bottom: 0;
+		padding-bottom: 0;
 	}
 
 	.icon-surface-footer {
@@ -387,5 +385,5 @@ body {
 	}
 
 	@media (min-width: 641px) and (max-width: 960px) {
-		
+
 	}
