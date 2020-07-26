@@ -66,7 +66,7 @@ body {
 .top-paragraphly-line {
 	display: block;
 	margin: 0;
-	margin-left: 13.75vw;
+	padding-left: 13.75vw;
 }	
 
 .downloads {
@@ -214,8 +214,6 @@ p {
 }
 
 .precept-img {
-	min-width: 100vw;
-	max-width: 100%;
 	background-color: #0a0e34;
 	background-repeat: no-repeat; 
 	background-size: cover;
@@ -374,10 +372,12 @@ p {
 
 	.img-footballer {
 		width: 53%;
+		margin-bottom: -17.1875%;
 	}
 
 	.img-basketballer {
 		width: 88vw;
+		margin-bottom: -8.125%; 
 	}
 
 	.connection {
@@ -436,12 +436,14 @@ p {
 
 	.precept-img {
 		min-height: 109.6875vw;
+		min-width: 100vw;
+		max-width: 100%;
 	}
 	.number-precept {
 		width: 21.875%;
 		padding: 6.875% 8.4375% 6.875% 8.4375%;
 		font-size: 4.375vw;
-		top: -28.125vw;
+		top: 92vw;
 		left: 6.25%;
 	}
 
@@ -472,7 +474,7 @@ p {
 		width: 17.5%;
 		padding: 4.0625% 2.1875%;
 		border-radius: 16px;
-		margin-top: 31.25%;
+		margin-top: 24%;
 	}
 
 	.title-footer {
@@ -483,6 +485,7 @@ p {
 
 	.downloads-footer {
 		margin-top: 23.75%;
+		padding-bottom: 0;
 	}
 
 	.icon-surface-footer {
@@ -539,6 +542,7 @@ p {
 
 	.block-sportsmans {
 		position: relative;
+		overflow: hidden;
 	}
 
 	.title-sportsmans {
@@ -552,6 +556,7 @@ p {
 	}
 
 	.img-footballer {
+		width: 64.7135%;
 		position: absolute;
 		top: 16vw;
 		left: -21vw;
@@ -614,6 +619,7 @@ p {
 
 
 	.img-basketballer {
+		width: 58%;
 		position: absolute;
 		top: 5vw;
 		left: 43.2291vw;
@@ -630,13 +636,14 @@ p {
 
 	.precept-img {
 		min-height: 76.0416vw;
+		max-width: 100%;
 	}
 
 	.number-precept {
 		width: 15%;
 		padding: 5vw 6.1197vw 5vw 6.1197vw ;
 		font-size: 3.125vw;
-		top: -20vw;
+		top: 65vw;
 		left: 4.7vw;
 	}
 
@@ -692,3 +699,232 @@ p {
 	}
 
 }
+
+@media (min-width: 961px) {
+
+	.top {
+		background-image: url("../images/football_1920.jpg");
+	}
+
+	.container {
+		padding-top: 2.34375%;
+		padding-bottom: 4.9479%;
+	}
+
+	.icon-surface {
+		width: 9.94791%;
+	}
+
+	.top-paragraphly {
+		font-size: 4.6875vw;
+		margin-top: 15.46875%;
+		padding-left: 10%;
+	}
+
+	.top-paragraphly-line {
+		padding-left: 22vw;
+	}
+
+	.downloads {
+		display: flex;
+		width: 35%;
+		margin-top: 11.56253%;
+		margin-bottom: 5.5729%;
+	}
+
+	.download-link {
+		width: 46.1424%;
+		position: relative;
+	}
+
+	.download-link:nth-child(n+2) {
+		margin-left: 7.7152%;
+	}
+
+	.link {
+		font-size: 0.72916vw;
+		padding: 8.3333% 0 8.3333% 40%;	
+		
+	}
+
+	.icon-store {
+		width: 13%;
+		left: 3vw;	
+	}
+
+	.block-sportsmans {
+		position: relative;
+	}
+
+	.title-sportsmans {
+		font-size: 4.1666vw;
+		line-height: 3.125vw;
+		padding-top: 6.0416%;	
+	}
+
+	.title-athlets {
+		padding-left: 52.5%;	
+	}
+
+	.img-footballer {
+		position: absolute;
+		z-index: 1;
+		width: 32%;
+		top: 1.4583vw;
+		left: 15vw;
+	}
+
+	.connection-athlets {
+		margin-top: 5.5729%;
+		padding-left: 52.5%;
+		padding-bottom: 3.0729%;
+		padding-right: 10.2083%;
+	}
+
+	.number-description, .number-description-growth, .number-description-players {
+		font-size: 0.9375vw;
+	}
+
+	.number-description::after, .number-description-growth::after, .number-description-players::after  {
+		width: 1.0416vw;
+		height: 0.2604vw;
+	}
+
+	.title-description {
+		font-size: 1.875vw;
+		margin-left: 1.5363%;
+	}
+
+	.description-athlets, .description-players {
+		font-size: 1.04166vw;
+		margin-top: 1.5vw;
+
+	}
+
+	.collaboration-athlets, .growth-athlets {
+		padding-top: 2.8645%;
+		padding-left: 52.5%;
+		padding-bottom: 2.8645%;
+		padding-right: 10.2083%;
+	}
+
+	.title-players { 
+		padding-left: 10%;
+	}
+
+
+	.img-basketballer {
+		width: 52%;
+		position: absolute;
+		top: 1.5104vw;
+		left: 43.2291vw;
+	}
+
+	.connection-players {
+		box-sizing: border-box;
+		margin-top: 5.5729%;
+		padding-right: 50.677%;
+		padding-bottom: 2.8645%;
+		padding-left: 10%;
+
+	}
+
+	.collaboration-players, .growth-players {
+		box-sizing: border-box;
+		padding: 2.8645%  50.677% 2.8645% 10%;		
+	}
+
+	.precept {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+
+	.precept-preview {
+		width: 50%;
+	}
+
+	.precept-img {
+		display: block;
+		min-width: 100%;
+		max-width: 100%;
+	}
+
+	.number-precept {
+		width: 8.6979%;
+		padding: 3.0729% 3.6458% 3.0729% 3.6458% ;
+		font-size: 1.25vw;
+		top: 11.1vw;
+		left: 45.5vw;
+	}
+
+	.numeral::after {
+		width: 1.35vw;
+		height: 0.2604vw;
+	}
+
+	.precept-discription-block {
+		width: 50%;
+	}
+
+	.precept:nth-child(even) .precept-discription-block {
+		order: -1;
+	}
+
+	.title-precept {
+		font-size: 4.1666vw;
+		line-height: 3.125vw;
+		padding-left: 13.333%; 
+		padding-top: 27.0833%;
+		margin: 0;
+	}
+
+	.precept-discription {
+		font-size: 1.25vw;
+		padding: 0 18.9583% 0 13.333%;
+		margin-top: 12.3958%;
+	}
+
+	.footer {
+		background-image: url("../images/game_1920.jpg");
+	}
+
+	.logo-title {
+		display: flex;
+		width: 45.15625%;
+		margin: auto;
+		padding-top: 10.677%;
+	}
+
+	.logo {
+		box-sizing: border-box;
+		width: 14.9942%;
+		height: 6.7708vw;
+		padding: 2.7681% 1.4994%;
+		margin: 0;
+		border-radius: 35px;
+	}
+
+	.title-footer {
+		font-size: 4.1666vw;
+		line-height: 3.125vw;
+		margin: 0;
+		padding-top: 2.5374%; 
+	}
+
+	.footer-paragraphly {
+		font-size: 1.5625vw;
+	}
+
+	.downloads-footer {
+		margin-top: 7.8125%;
+		margin-bottom: 0;
+	}
+
+	.icon-surface-footer {
+		margin-top: 13.5416%;
+	}
+
+}
+
+
